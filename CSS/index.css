@@ -1,114 +1,19 @@
-/***Body***/
-body {
-    background-color: rgba(247, 203, 202, 0.39);
-    overflow-x: hidden;
-    margin-left: auto;
-    margin-right: auto;}
-/***Header***/
-header {
+.jumbotron {
+    display: flex;
+    align-items: center;
     text-align: center;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Permanent Marker', cursive;
     margin: auto;
-}
-#header_title {
-    font-size: 50px;
-    font-weight: bold;
-    font-family: Pacifico, sans-serif;
-    margin: auto;
-}
-#Billie_logo {
-    border: grey solid 2px;
-    border-radius: 15%;
-    width: auto;
-    height: 250px;
-}
-/***Intro***/
-.intro {
-    width: 750px;
-    margin: auto;
-    text-align: justify;
-}
-.intro ::first-letter{
-    font-size: 175%;
-}
-/***FirstYears***/
-#first-year {
-    width: 750px;
-    margin: auto;
-    text-align: justify; 
-}
-#first-year-imgs {
-    height: 150px;
-    width: auto;
-    border-radius: 5px;
-    text-align: center;
-    margin-bottom: 15px;
-    position: relative;
-}
-li {
-    list-style-type: circle;
-}
-/***Footer***/
-.disclaimer { 
-    overflow: hidden; 
-    padding: 10px; 
-    text-align: center; 
-    margin-top: 10px; 
-    background-color: #e0e0e0;
-} 
-#footer #col1, { 
-    float: left; 
-    width: 320px; 
-    padding: 0px 40px 0px 40px; 
-} 
-#footer #icon { 
-    display: block; 
-    margin-bottom: 5px; 
-    font-size: 3em; 
-}
-.disclaimer #why {
-  
-}
-.copyright { 
-    overflow: hidden; 
-    padding: 3em 0em; 
-    border-top: 20px solid rgba(255, 255, 255, 0.08); 
-    text-align: center; 
-    background: #4CAF50; 
-} 
+    height: 50%;
+    }
 
-.copyright { 
-    overflow: hidden; 
-    padding: 3em 0em; 
-    border-top: 20px solid rgba(255, 255, 255, 0.08); 
-    text-align: center; 
-    background: #4CAF50; 
+.jumbotron h1 {
+    font-size: 100px;
+    color: pink;
 }
-.copyright p { 
-    letter-spacing: 1px; 
-    font-size: 0.90em; 
-    color: rgba(255, 255, 255, 0.6); 
-} 
-.copyright a { 
-    text-decoration: none; 
-    color: rgba(255, 255, 255, 0.8); 
-}
-ul.contact { 
-    margin: 0; 
-    padding: 2em 0em 0em 0em; 
-    list-style: none; 
-} 
-ul.contact li{ 
-    display: inline-block; 
-    padding: 0em 0.10em; 
-    font-size: 1em; 
-} 
 
-ul.contact li a{ 
-    color: #FFF; 
-    display: inline-block; 
-    background: #4C93B9; 
-    width: 40px; 
-    height: 40px; 
-    line-height: 40px; 
-    text-align: center; 
+a {
+    padding: 0 5px 0 0;
 }
