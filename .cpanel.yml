@@ -4,4 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/mattzunw/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - export DEPLOYPATHIMAGES=/home/mattzunw/public_html/images/
-    - /bin/cp -R images $DEPLOYPATHIMAGES
+    - /bin/cp -R Images $DEPLOYPATHIMAGES
