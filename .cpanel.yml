@@ -1,8 +1,5 @@
 --- 
 deployment: 
   tasks: 
-    - "export DEPLOYPATH=/home/mattzunw/public_html/"
-    - "/bin/cp -R images $DEPLOYPATHimages"
-    - "/bin/cp -R docs $DEPLOYPATHdocs"
-    - "/bin/cp -R css $DEPLOYPATHcss"
-    - "/bin/cp index.html $DEPLOYPATH"
+    - export DEPLOYPATH=/home/mattzunw/public_html/
+    - /bin/cp index.html $DEPLOYPATH
