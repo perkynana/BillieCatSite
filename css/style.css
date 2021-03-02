@@ -1,0 +1,23 @@
+.jumbotron {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Permanent Marker', cursive;
+    margin: auto;
+    height: 50%;
+    }
+
+.jumbotron h1 {
+    font-size: 100px;
+    color: pink;
+}
+
+a {
+    padding: 0 5px 0 0;
+}
+
+#bed {
+    border-radius: 20%;
+}
