@@ -2,5 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/mattzunw/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp css/style.css $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R docs $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R index.html $DEPLOYPATH
