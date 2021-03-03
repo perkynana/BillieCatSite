@@ -1,3 +1,19 @@
+.sticky {
+	background-color: darkslategrey;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    opacity: 1;
+    z-index: 500;
+}
+.sticky a {
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+  
+}
+
 .header {
     display: flexbox;
     align-items: center;
@@ -16,10 +32,6 @@
 
 a {
     padding: 0 5px 0 0;
-}
-.navbar {
-    background-color: #343a40;
-    font-weight: bold;
 }
 
 #img {
