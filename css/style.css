@@ -1,5 +1,5 @@
-.jumbotron {
-    display: flex;
+.header {
+    display: flexbox;
     align-items: center;
     text-align: center;
     background-position: center;
@@ -18,8 +18,8 @@ a {
     padding: 0 5px 0 0;
 }
 .navbar {
-    display: flex;
     background-color: #343a40;
+    font-weight: bold;
 }
 
 #bed {
