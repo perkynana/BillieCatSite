@@ -1,9 +1,3 @@
-html, body {
-    overflow-x: hidden;
-  }
-  body {
-    position: relative
-  }
 .sticky {
     display: flex;
 	background-color: darkslategrey;
@@ -35,13 +29,11 @@ html, body {
 .jumbotron h1 {
     font-size: 100px;
     color: pink;
+    align-items: center;
+    text-align: center;
 }
 
 a {
     color: pink !important;
     font-weight: bold;
-}
-
-#img {
-    border-radius: 20%;
 }
