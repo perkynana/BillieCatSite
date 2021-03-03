@@ -37,3 +37,7 @@ a {
     color: pink !important;
     font-weight: bold;
 }
+
+#img {
+    border-radius: 15%;
+}
