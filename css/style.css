@@ -17,6 +17,10 @@
 a {
     padding: 0 5px 0 0;
 }
+.navbar {
+    display: flex;
+    background-color: #343a40;
+}
 
 #bed {
     border-radius: 20%;
