@@ -31,7 +31,7 @@
 
 .jumbotron h1 {
     font-size: 100px;
-    color: pink;
+    color: #fc6c85;
     align-items: center;
     text-align: center;
 }
@@ -41,7 +41,7 @@
 }
 
 a {
-    color: pink !important;
+    color: darkpink !important;
     font-weight: bold;
 }
 
