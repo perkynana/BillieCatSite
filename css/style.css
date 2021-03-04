@@ -42,6 +42,9 @@ a {
     color: darkpink !important;
     font-weight: bold;
 }
+p {
+    font-size: 12px;
+}
 
 #img {
     border-radius: 15%;
