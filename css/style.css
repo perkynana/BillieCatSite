@@ -5,7 +5,7 @@
     display: flex;
 	background-color: darkslategrey;
 	position: -webkit-sticky;
-	position: sticky;
+	position: ;
 	top: 0;
     opacity: 1;
     z-index: 500;
