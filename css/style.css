@@ -1,3 +1,6 @@
+#top {
+    scroll-behavior: smooth;
+}
 .sticky {
     display: flex;
 	background-color: darkslategrey;
