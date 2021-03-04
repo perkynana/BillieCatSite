@@ -1,15 +1,14 @@
 #top {
     scroll-behavior: smooth;
 }
-.sticky {
+.stick {
     display: flex;
 	background-color: darkslategrey;
-	position: -webkit-sticky;
 	top: 0;
     opacity: 1;
     z-index: 500;
 }
-.sticky a {
+.stick a {
     display: flex;
     padding: 5px;
     text-align: center;
