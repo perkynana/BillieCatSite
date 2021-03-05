@@ -42,6 +42,7 @@ p {
 
 #img {
     border-radius: 15%;
+    padding-bottom: 10px;
 }
 
 .titles {
@@ -52,14 +53,17 @@ p {
 }
 #adventurescontent {
     padding-bottom: 20px;
+    text-align: center;
 }
 
 #likescontent {
     padding-bottom: 20px;
+    text-align: center;
 }
 
 #albumcontent {
     padding-bottom: 20px;
+    text-align: center;
 }
 footer{
     background-color: #466d1d;
