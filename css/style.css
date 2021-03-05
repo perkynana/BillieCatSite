@@ -31,15 +31,11 @@
     text-align: center;
 }
 
-#advcontent {
-    padding-bottom: 10px;
-    text-align: center;
-}
-
 a {
     color: darkpink !important;
     font-weight: bold;
 }
+
 p {
     font-size: 12px;
 }
@@ -47,6 +43,13 @@ p {
 #img {
     border-radius: 15%;
 }
-#aboutme {
+
+.titles {
+    padding-bottom: 10px;
+}
+#aboutmecontent {
+    padding-bottom: 20px;
+}
+#adventurescontent {
     padding-bottom: 20px;
 }
